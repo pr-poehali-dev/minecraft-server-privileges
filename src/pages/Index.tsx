@@ -11,7 +11,7 @@ const Index = () => {
           <p className="text-gray-600">Выберите свой уровень доступа</p>
         </div>
 
-        <PrivilegeCard title="нач.кит" price={40} icon="Zap" />
+        <PrivilegeCard title="Stone" price={300} icon="Mountain" />
       </div>
     </div>
   );
