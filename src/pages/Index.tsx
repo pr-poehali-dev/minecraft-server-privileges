@@ -1,11 +1,17 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import PrivilegeCard from "@/components/PrivilegeCard";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-purple-50 flex items-center justify-center p-4">
+      <div className="w-full max-w-md">
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold text-gray-800 mb-2 font-montserrat">
+            Привилегии
+          </h1>
+          <p className="text-gray-600">Выберите свой уровень доступа</p>
+        </div>
+
+        <PrivilegeCard title="нач.кит" price={40} icon="Zap" />
       </div>
     </div>
   );
