@@ -15,7 +15,12 @@ const Index = () => {
           <PrivilegeCard title="Stone" price={300} icon="Mountain" />
           <PrivilegeCard title="нач.кит" price={40} icon="Package" />
           <PrivilegeCard title="легенда" price={500} icon="Crown" />
-          <PrivilegeCard title="плюс" price={190} icon="Plus" />
+          <PrivilegeCard
+            title="плюс"
+            price={190}
+            icon="Plus"
+            description="дополнительный кит"
+          />
           <PrivilegeCard title="more" price={590} icon="Plus" />
         </div>
       </div>
