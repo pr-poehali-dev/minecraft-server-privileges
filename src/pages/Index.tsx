@@ -14,6 +14,7 @@ const Index = () => {
         <div className="space-y-4">
           <PrivilegeCard title="Stone" price={300} icon="Mountain" />
           <PrivilegeCard title="нач.кит" price={40} icon="Package" />
+          <PrivilegeCard title="легенда" price={500} icon="Crown" />
         </div>
       </div>
     </div>
